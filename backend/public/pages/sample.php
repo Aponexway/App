@@ -1,11 +1,7 @@
-<?php // ВАЖНО !ЭТОТ ФАЙЛ НУЖНО БУДЕТ УДАЛИТЬ
+<?php
 require_once(__DIR__ . '/../../databases/db_connect.php');
+require_once(__DIR__ . '/../../databases/db_hash_table.php');
 
-// Простой тест 
-$result = $conn->query("SELECT text FROM document_1");
+echo "Hello world!";
 
-$i  = (int) 1;
-while($row = $result->fetch(PDO::FETCH_ASSOC)) {
-    echo "\t".$i++."\t" . $row['text'] . "\n";
-}
 ?>

@@ -6,6 +6,17 @@
     <title>Php-1 site</title>
 </head>
 <body>
-    <p> KK</p>
+    <p> Главная страничка</p>
+
+    <div>
+        <a href = "prototype.php">
+            <p>1я ссылка</p>
+        </a>
+    </div>
+    <div>
+        <a href="echo1.php">
+            <p>2я ссылка</p>
+        </a>
+    </div>
 </body>
 </html>
