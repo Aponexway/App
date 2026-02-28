@@ -9,14 +9,15 @@
     <p> Главная страничка</p>
 
     <div>
-        <a href = "prototype.php">
-            <p>1я ссылка</p>
-        </a>
+        <form action='post.php' method="POST">
+            <input type="text"  name="language">
+            <input type="submit" value="отправить">
+        </form>
     </div>
+
     <div>
-        <a href="echo1.php">
-            <p>2я ссылка</p>
-        </a>
+        <?php include("post.php"); ?>
     </div>
+   
 </body>
 </html>
