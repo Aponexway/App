@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Saira:ital,wght@0,100..900;1,100..900&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
+
+body{
+    background-image: url('nvim.jpg');
+  
+}
+
+.center{
+    text-align: center;
+}
+
+.search{        font-family: 'Comfortaa', cursive;
+        font-size:20px;
+        color:  #cd7f32; 
+        font-style:unset;
+        background-color: rgba(65, 33, 162, 0.25);
+        display: inline-block;
+        padding: 10px;
+        border-radius: 20px;
+        box-shadow: 0 0 10px #647d60;
+        border: 1px solid #205312; 
+}
+
+.search-button{        font-family: 'Comfortaa', cursive;
+        font-size:17px;
+        color:  #d0bf2b; 
+        font-style:unset;
+        background-color: rgba(65, 35, 149, 0.5);
+        display: inline-block;
+        padding: 6px;
+        border-radius: 10px;
+        box-shadow: 0 0 5px #289e9e;
+        border: 1px solid #205312; 
+        margin-left: 30px;
+}
+
+.link{
+        font-family: "Nunito", sans-serif;
+        color: white;
+        background-color: #3c0d5c;
+        display:inline-block;
+        padding: 5px;
+        border-radius: 10px;
+}
+
+.title {
+    font-size: 70px;
+    font-family: "Nunito", sans-serif;
+    font-weight: 700;
+    color: white;
+    background: linear-gradient(145deg, #351075, #530ab3);
+    display: inline-block;
+    padding: 10px 30px;
+    border-radius: 40px;
+    box-shadow: 0 20px 30px -10px rgba(0,0,0,0.3);
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    border: 1px solid rgba(255,255,255,0.2);
+
+    margin-top: 10px;
+}
+
+a{
+        font-weight: 500;
+        font-family: 'Saira', sans-serif;
+        font-size: 26px;
+        color: #ffffff;
+        background: linear-gradient(150deg, #312076, #493a85, #34253d);
+        backdrop-filter: blur(10px);
+        display: inline-block;
+
+        padding-top: 4px;
+        padding-left: 50px;
+        padding-right: 50px;
+        padding-bottom: 4px;
+
+        border-radius: 30px;
+        text-align: center;
+        border: 1px solid rgba(71, 201, 86, 0.3);
+        margin-top: 8px;
+        transition: 0.2s;
+
+        text-decoration: none !important;
+
+}
+
+a:hover {
+    background: rgba(87, 16, 201, 0.3);
+    border-color: #8b25d8;
+    box-shadow: 0 0 30px rgba(141, 0, 234, 0.3);
+}
+
+.man{
+         font-weight: 500;
+        font-family: 'Saira', sans-serif;
+        font-size: 60px;
+        color: #ffffff;
+        background: linear-gradient(120deg, #5E0DAC,	#552781,	#542b7a,	#8D41D6);
+        backdrop-filter: blur(10px);
+        display: inline-block;
+
+        padding-top: 4px;
+        padding-left: 50px;
+        padding-right: 50px;
+        padding-bottom: 4px;
+
+        border-radius: 30px;
+        text-align: center;
+        border: 1px solid rgba(71, 201, 86, 0.3);
+        margin-top: 8px;
+        transition: 0.2s;
+}
